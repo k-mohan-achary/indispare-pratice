@@ -1,0 +1,31 @@
+.funfact h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #291c61;
+}
+.funfact p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #5e5e5e;
+    padding: 0.5rem 0 2rem;
+}
+
+.categori{
+    text-align: center;
+    align-items: center;
+}
+.categori-div{
+    margin-top: -25%;
+}
+.cat-heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 16px;
+    text-align: center;
+    color: #3d3d3d;
+}
