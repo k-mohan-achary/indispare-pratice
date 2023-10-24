@@ -29,3 +29,87 @@
     text-align: center;
     color: #3d3d3d;
 }
+.cat-btn{
+    color: #fff;
+    border-color: #291c61;
+    background: #291c61;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 0 rgba(0,0,0,.045);
+}
+.titleHolderr h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #291c61;
+    text-align: center;
+    padding-bottom: 1rem
+}
+.sell-product{  
+
+}
+.sell-product img{
+    width: 100%;
+    margin-top: 15%;
+}
+.sell-product .sell-btn{
+    background: #f3465f;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    max-width: 5rem;
+    text-align: right;
+    font-size: 12px;
+    position: absolute;
+    width: 86px;
+    z-index: 9;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+.sell-product .sell-btn:hover{ 
+   color: #fff !important;
+   border: 1px solid #f3465f !important;
+}
+
+
+
+.sell-product p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #222;
+}
+.sell-product h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    color: #291c61;
+    width: 100%;
+    text-align: center;
+}
+.sell-product .spa{
+    font-size: 10px;
+    line-height: 14px;
+    color: #291c61;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
