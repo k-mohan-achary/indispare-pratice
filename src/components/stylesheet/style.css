@@ -95,10 +95,38 @@
 }
 
 
+.popular{
+    display: flex; 
+    flex-direction: row;
+    --gap: 1em;
+    padding: var(--gap);
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    gap: var(--gap);
+    justify-content: center;
+    align-items: center;
+    
 
+}
+.popular .card{
+    background: rgba(243,70,95,.1);
+    border-radius: 10px;
+    height: auto;
+    width: 100%;  
+}
+.round{
+    height: 132px;
+    width: 132px;
+    background-color: #fff;
+    border-radius: 50%; 
+}
 
-
-
+@media (min-width: 320px) and (max-width: 768px)
+{
+    .popular{
+        flex-direction: column;
+    }
+    
+}
 
 
 

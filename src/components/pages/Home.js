@@ -3,7 +3,7 @@ import '../stylesheet/style.css';
 import { Breadcrumb, Layout, Menu } from 'antd'; 
 import AppHeader from './common/AppHeader';
 import AppHome from './views/AppHome';
-
+import Footter from './common/Footter';
 
 const { Header, Content, Footer } = Layout;
 
@@ -11,19 +11,20 @@ const Home = () => {
 
   return (
     <>
-     <div>  
+      <div>  
         <Layout className="mainLayout">
             <Header>
-             <AppHeader/>            
+              <AppHeader/>            
             </Header>
             <Content>
-             <AppHome/>
+              <AppHome/>
             </Content>
-        </Layout>
-        
-     </div>    
+            <Footer>
+              <Footter/> 
+            </Footer> 
+        </Layout> 
+      </div>    
     </>
   )
 }
-
-export default Home
+export default Home; 

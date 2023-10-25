@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import 'antd/dist/antd.css'
 import Home from './components/pages/Home';

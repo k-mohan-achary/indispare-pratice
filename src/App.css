@@ -432,7 +432,14 @@ footer
 .footer .socials a:hover {
   color: #1890ff;
 }
+.goTop{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px; 
+  background-color: #1890ff;
+  justify-content:space-between;
 
+}
 .footer .goTop:hover {
   opacity: 0.7;
 }
